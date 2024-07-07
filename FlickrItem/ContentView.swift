@@ -2,13 +2,12 @@
 //  ContentView.swift
 //  FlickrItem
 //
-//  Created by Ron Jurincie on 7/7/24.
+//  Created by Ron Jurincie on 7/7/24
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var focused: Bool
     @State private var welcome: Welcome? = nil
     @State private var searchTerms = ""
